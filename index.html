@@ -3,23 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- SEO Meta Tags -->
   <title>Tax Consultant in Delhi | GST, Income Tax, Audit & Financial Advisory</title>
   <meta name="description" content="Trusted Income Tax Consultant in Delhi offering GST filing, Income Tax Returns, Auditing, Business Compliance, and Financial Advisory services. Book a free consultation today." />
   <meta name="keywords" content="Income Tax Consultant in Delhi, CA in Delhi, GST Filing Services Delhi, Income Tax Return Filing Delhi, CA for Business Accounting Delhi, Financial Advisory Delhi, GST Registration Delhi, Tax Planning Delhi" />
   <meta name="robots" content="index, follow" />
   <meta name="author" content="CA Delhi Professional Services" />
   <link rel="canonical" href="https://www.yourdomain.com/" />
-
-  <!-- Open Graph / Social -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tax Consultant in Delhi | GST, Tax & Audit Services" />
   <meta property="og:description" content="Professional Tax services in Delhi — GST returns, income tax filing, auditing, and financial advisory for individuals and businesses." />
   <meta property="og:url" content="https://www.yourdomain.com/" />
   <meta property="og:image" content="https://www.yourdomain.com/og-image.jpg" />
-
-  <!-- Schema Markup: Local Business -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,19 +44,11 @@
     ]
   }
   </script>
-
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
   <style>
-    /* =========================================================
-       CSS VARIABLES & RESET
-    ========================================================= */
     :root {
       --navy: #0B1C3D;
       --navy-mid: #132347;
@@ -84,1636 +70,246 @@
       --radius-lg: 20px;
       --transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; font-size: 16px; }
-
-    body {
-      font-family: 'DM Sans', sans-serif;
-      color: var(--text-body);
-      background: var(--white);
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-
-    h1, h2, h3, h4, h5 {
-      font-family: 'Playfair Display', serif;
-      color: var(--text-dark);
-      line-height: 1.25;
-    }
-
+    body { font-family: 'DM Sans', sans-serif; color: var(--text-body); background: var(--white); line-height: 1.7; overflow-x: hidden; }
+    h1, h2, h3, h4, h5 { font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.25; }
     a { text-decoration: none; color: inherit; }
     img { max-width: 100%; display: block; }
     ul { list-style: none; }
-
-    .container {
-      max-width: 1180px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
     .section-pad { padding: 96px 0; }
     .section-pad-sm { padding: 64px 0; }
-
-    .section-tag {
-      display: inline-block;
-      background: rgba(200,169,110,0.12);
-      color: var(--gold);
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 6px 16px;
-      border-radius: 50px;
-      margin-bottom: 16px;
-      border: 1px solid rgba(200,169,110,0.25);
-    }
-
-    .section-title {
-      font-size: clamp(1.8rem, 4vw, 2.8rem);
-      font-weight: 700;
-      margin-bottom: 16px;
-    }
-
-    .section-subtitle {
-      font-size: 1.05rem;
-      color: var(--grey-mid);
-      max-width: 560px;
-      line-height: 1.8;
-    }
-
+    .section-tag { display: inline-block; background: rgba(200,169,110,0.12); color: var(--gold); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 16px; border-radius: 50px; margin-bottom: 16px; border: 1px solid rgba(200,169,110,0.25); }
+    .section-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; margin-bottom: 16px; }
+    .section-subtitle { font-size: 1.05rem; color: var(--grey-mid); max-width: 560px; line-height: 1.8; }
     .section-header { margin-bottom: 56px; }
     .section-header.center { text-align: center; }
     .section-header.center .section-subtitle { margin: 0 auto; }
-
-    /* =========================================================
-       BUTTONS
-    ========================================================= */
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 14px 32px;
-      border-radius: 6px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.95rem;
-      font-weight: 600;
-      cursor: pointer;
-      border: none;
-      transition: var(--transition);
-      letter-spacing: 0.02em;
-    }
-
-    .btn-primary {
-      background: var(--gold);
-      color: var(--navy);
-    }
-    .btn-primary:hover {
-      background: var(--gold-light);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(200,169,110,0.4);
-    }
-
-    .btn-outline {
-      background: transparent;
-      color: var(--white);
-      border: 1.5px solid rgba(255,255,255,0.5);
-    }
-    .btn-outline:hover {
-      background: rgba(255,255,255,0.1);
-      border-color: var(--white);
-    }
-
-    .btn-navy {
-      background: var(--navy);
-      color: var(--white);
-    }
-    .btn-navy:hover {
-      background: var(--blue);
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
-    }
-
-    /* =========================================================
-       NAVBAR
-    ========================================================= */
-    #navbar {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 1000;
-      padding: 18px 0;
-      transition: var(--transition);
-    }
-
-    #navbar.scrolled {
-      background: rgba(11,28,61,0.97);
-      backdrop-filter: blur(12px);
-      padding: 12px 0;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.2);
-    }
-
-    .nav-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .nav-logo {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .logo-icon {
-      width: 40px;
-      height: 40px;
-      background: var(--gold);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Playfair Display', serif;
-      font-weight: 900;
-      font-size: 1.1rem;
-      color: var(--navy);
-    }
-
-    .logo-text {
-      color: var(--white);
-    }
-
-    .logo-text strong {
-      display: block;
-      font-family: 'Playfair Display', serif;
-      font-size: 1.1rem;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-
-    .logo-text span {
-      font-size: 0.72rem;
-      color: var(--gold);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-weight: 500;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .nav-links a {
-      color: rgba(255,255,255,0.82);
-      font-size: 0.88rem;
-      font-weight: 500;
-      padding: 8px 14px;
-      border-radius: 6px;
-      transition: var(--transition);
-      letter-spacing: 0.01em;
-    }
-
-    .nav-links a:hover {
-      color: var(--white);
-      background: rgba(255,255,255,0.08);
-    }
-
-    .nav-cta {
-      background: var(--gold) !important;
-      color: var(--navy) !important;
-      font-weight: 600 !important;
-    }
-
-    .nav-cta:hover {
-      background: var(--gold-light) !important;
-      transform: translateY(-1px);
-    }
-
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-      padding: 4px;
-    }
-
-    .hamburger span {
-      display: block;
-      width: 24px;
-      height: 2px;
-      background: var(--white);
-      border-radius: 2px;
-      transition: var(--transition);
-    }
-
-    /* Mobile menu */
-    .mobile-menu {
-      display: none;
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: var(--navy);
-      z-index: 999;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 24px;
-    }
-
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; border-radius: 6px; font-family: 'DM Sans', sans-serif; font-size: 0.95rem; font-weight: 600; cursor: pointer; border: none; transition: var(--transition); letter-spacing: 0.02em; }
+    .btn-primary { background: var(--gold); color: var(--navy); }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200,169,110,0.4); }
+    .btn-outline { background: transparent; color: var(--white); border: 1.5px solid rgba(255,255,255,0.5); }
+    .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: var(--white); }
+    .btn-navy { background: var(--navy); color: var(--white); }
+    .btn-navy:hover { background: var(--blue); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+    #navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 18px 0; transition: var(--transition); }
+    #navbar.scrolled { background: rgba(11,28,61,0.97); backdrop-filter: blur(12px); padding: 12px 0; box-shadow: 0 2px 20px rgba(0,0,0,0.2); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 12px; }
+    .logo-icon { width: 40px; height: 40px; background: var(--gold); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-weight: 900; font-size: 1.1rem; color: var(--navy); }
+    .logo-text { color: var(--white); }
+    .logo-text strong { display: block; font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; line-height: 1.2; }
+    .logo-text span { font-size: 0.72rem; color: var(--gold); letter-spacing: 0.08em; text-transform: uppercase; font-weight: 500; }
+    .nav-links { display: flex; align-items: center; gap: 4px; }
+    .nav-links a { color: rgba(255,255,255,0.82); font-size: 0.88rem; font-weight: 500; padding: 8px 14px; border-radius: 6px; transition: var(--transition); letter-spacing: 0.01em; }
+    .nav-links a:hover { color: var(--white); background: rgba(255,255,255,0.08); }
+    .nav-cta { background: var(--gold) !important; color: var(--navy) !important; font-weight: 600 !important; }
+    .nav-cta:hover { background: var(--gold-light) !important; transform: translateY(-1px); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: var(--transition); }
+    .mobile-menu { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: var(--navy); z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: 24px; }
     .mobile-menu.open { display: flex; }
-
-    .mobile-menu a {
-      color: var(--white);
-      font-family: 'Playfair Display', serif;
-      font-size: 1.5rem;
-      font-weight: 600;
-      padding: 8px 0;
-      transition: var(--transition);
-    }
-
+    .mobile-menu a { color: var(--white); font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 600; padding: 8px 0; transition: var(--transition); }
     .mobile-menu a:hover { color: var(--gold); }
-
-    .mobile-close {
-      position: absolute;
-      top: 24px;
-      right: 24px;
-      color: var(--white);
-      font-size: 1.4rem;
-      cursor: pointer;
-      background: none;
-      border: none;
-    }
-
-    /* =========================================================
-       HERO
-    ========================================================= */
-    #hero {
-      min-height: 100vh;
-      background: var(--navy);
-      position: relative;
-      display: flex;
-      align-items: center;
-      overflow: hidden;
-    }
-
-    .hero-bg-pattern {
-      position: absolute;
-      inset: 0;
-      background-image:
-        radial-gradient(circle at 20% 50%, rgba(26,77,181,0.3) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(200,169,110,0.1) 0%, transparent 40%),
-        radial-gradient(circle at 60% 80%, rgba(26,77,181,0.15) 0%, transparent 40%);
-    }
-
-    .hero-grid-lines {
-      position: absolute;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
-      background-size: 60px 60px;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      max-width: 760px;
-    }
-
-    .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(200,169,110,0.12);
-      border: 1px solid rgba(200,169,110,0.3);
-      border-radius: 50px;
-      padding: 8px 20px;
-      margin-bottom: 32px;
-      color: var(--gold);
-      font-size: 0.82rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
-
+    .mobile-close { position: absolute; top: 24px; right: 24px; color: var(--white); font-size: 1.4rem; cursor: pointer; background: none; border: none; }
+    #hero { min-height: 100vh; background: var(--navy); position: relative; display: flex; align-items: center; overflow: hidden; }
+    .hero-bg-pattern { position: absolute; inset: 0; background-image: radial-gradient(circle at 20% 50%, rgba(26,77,181,0.3) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(200,169,110,0.1) 0%, transparent 40%), radial-gradient(circle at 60% 80%, rgba(26,77,181,0.15) 0%, transparent 40%); }
+    .hero-grid-lines { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px); background-size: 60px 60px; }
+    .hero-content { position: relative; z-index: 2; max-width: 760px; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(200,169,110,0.12); border: 1px solid rgba(200,169,110,0.3); border-radius: 50px; padding: 8px 20px; margin-bottom: 32px; color: var(--gold); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; }
     .hero-badge i { font-size: 0.85rem; }
-
-    .hero-title {
-      font-size: clamp(2.4rem, 6vw, 4.2rem);
-      color: var(--white);
-      font-weight: 900;
-      margin-bottom: 24px;
-      line-height: 1.15;
-    }
-
+    .hero-title { font-size: clamp(2.4rem, 6vw, 4.2rem); color: var(--white); font-weight: 900; margin-bottom: 24px; line-height: 1.15; }
     .hero-title .accent { color: var(--gold); }
-
-    .hero-subtitle {
-      font-size: 1.1rem;
-      color: rgba(255,255,255,0.72);
-      margin-bottom: 40px;
-      max-width: 580px;
-      line-height: 1.8;
-    }
-
-    .hero-actions {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      margin-bottom: 56px;
-    }
-
-    .hero-stats {
-      display: flex;
-      gap: 40px;
-      flex-wrap: wrap;
-    }
-
-    .hero-stat {
-      border-left: 2px solid var(--gold);
-      padding-left: 16px;
-    }
-
-    .hero-stat strong {
-      display: block;
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      color: var(--white);
-      font-weight: 700;
-      line-height: 1;
-    }
-
-    .hero-stat span {
-      font-size: 0.8rem;
-      color: rgba(255,255,255,0.5);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 500;
-    }
-
-    .hero-right {
-      position: absolute;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 380px;
-    }
-
-    .hero-card {
-      background: rgba(255,255,255,0.05);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: var(--radius-lg);
-      padding: 32px;
-      margin-right: 48px;
-    }
-
-    .hero-card h3 {
-      color: var(--white);
-      font-size: 1.2rem;
-      margin-bottom: 20px;
-    }
-
+    .hero-subtitle { font-size: 1.1rem; color: rgba(255,255,255,0.72); margin-bottom: 40px; max-width: 580px; line-height: 1.8; }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 56px; }
+    .hero-stats { display: flex; gap: 40px; flex-wrap: wrap; }
+    .hero-stat { border-left: 2px solid var(--gold); padding-left: 16px; }
+    .hero-stat strong { display: block; font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--white); font-weight: 700; line-height: 1; }
+    .hero-stat span { font-size: 0.8rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 500; }
+    .hero-right { position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 380px; }
+    .hero-card { background: rgba(255,255,255,0.05); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-lg); padding: 32px; margin-right: 48px; }
+    .hero-card h3 { color: var(--white); font-size: 1.2rem; margin-bottom: 20px; }
     .hero-card-items { display: flex; flex-direction: column; gap: 14px; }
-
-    .hero-card-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      color: rgba(255,255,255,0.8);
-      font-size: 0.9rem;
-    }
-
-    .hero-card-item i {
-      width: 32px;
-      height: 32px;
-      background: rgba(200,169,110,0.15);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--gold);
-      font-size: 0.85rem;
-      flex-shrink: 0;
-    }
-
-    /* =========================================================
-       TRUST BAR
-    ========================================================= */
-    #trust-bar {
-      background: var(--cream);
-      padding: 24px 0;
-      border-bottom: 1px solid rgba(0,0,0,0.06);
-    }
-
-    .trust-inner {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 48px;
-      flex-wrap: wrap;
-    }
-
-    .trust-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--grey-dark);
-      font-size: 0.9rem;
-      font-weight: 500;
-    }
-
-    .trust-item i {
-      color: var(--gold);
-      font-size: 1.1rem;
-    }
-
-    /* =========================================================
-       ABOUT
-    ========================================================= */
-    #about {
-      background: var(--white);
-    }
-
-    .about-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: center;
-    }
-
-    .about-visual {
-      position: relative;
-    }
-
-    .about-img-frame {
-      background: var(--navy);
-      border-radius: var(--radius-lg);
-      aspect-ratio: 4/5;
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .about-placeholder {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 16px;
-      color: rgba(255,255,255,0.5);
-      text-align: center;
-      padding: 32px;
-    }
-
-    .about-placeholder i {
-      font-size: 4rem;
-      color: var(--gold);
-      opacity: 0.5;
-    }
-
-    .about-placeholder p {
-      font-size: 0.85rem;
-      line-height: 1.6;
-    }
-
-    .about-badge {
-      position: absolute;
-      bottom: 24px;
-      right: -24px;
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 20px 24px;
-      box-shadow: var(--shadow-lg);
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      min-width: 200px;
-    }
-
-    .about-badge-icon {
-      width: 48px;
-      height: 48px;
-      background: var(--navy);
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--gold);
-      font-size: 1.2rem;
-      flex-shrink: 0;
-    }
-
-    .about-badge strong {
-      display: block;
-      font-size: 1.4rem;
-      font-family: 'Playfair Display', serif;
-      color: var(--navy);
-      line-height: 1;
-    }
-
-    .about-badge span {
-      font-size: 0.78rem;
-      color: var(--grey-mid);
-      font-weight: 500;
-    }
-
+    .hero-card-item { display: flex; align-items: center; gap: 12px; color: rgba(255,255,255,0.8); font-size: 0.9rem; }
+    .hero-card-item i { width: 32px; height: 32px; background: rgba(200,169,110,0.15); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 0.85rem; flex-shrink: 0; }
+    #trust-bar { background: var(--cream); padding: 24px 0; border-bottom: 1px solid rgba(0,0,0,0.06); }
+    .trust-inner { display: flex; align-items: center; justify-content: center; gap: 48px; flex-wrap: wrap; }
+    .trust-item { display: flex; align-items: center; gap: 10px; color: var(--grey-dark); font-size: 0.9rem; font-weight: 500; }
+    .trust-item i { color: var(--gold); font-size: 1.1rem; }
+    #about { background: var(--white); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    .about-visual { position: relative; }
+    .about-img-frame { background: var(--navy); border-radius: var(--radius-lg); aspect-ratio: 4/5; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+    .about-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; color: rgba(255,255,255,0.5); text-align: center; padding: 32px; }
+    .about-placeholder i { font-size: 4rem; color: var(--gold); opacity: 0.5; }
+    .about-placeholder p { font-size: 0.85rem; line-height: 1.6; }
+    .about-badge { position: absolute; bottom: 24px; right: -24px; background: var(--white); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow-lg); display: flex; align-items: center; gap: 14px; min-width: 200px; }
+    .about-badge-icon { width: 48px; height: 48px; background: var(--navy); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 1.2rem; flex-shrink: 0; }
+    .about-badge strong { display: block; font-size: 1.4rem; font-family: 'Playfair Display', serif; color: var(--navy); line-height: 1; }
+    .about-badge span { font-size: 0.78rem; color: var(--grey-mid); font-weight: 500; }
     .about-expertise { margin: 32px 0; }
-
-    .expertise-list {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-      margin-top: 16px;
-    }
-
-    .expertise-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: var(--text-dark);
-    }
-
-    .expertise-item i {
-      color: var(--gold);
-      font-size: 0.85rem;
-    }
-
-    /* =========================================================
-       SERVICES
-    ========================================================= */
-    #services {
-      background: var(--grey-light);
-    }
-
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 24px;
-    }
-
-    .service-card {
-      background: var(--white);
-      border-radius: var(--radius-lg);
-      padding: 36px 28px;
-      border: 1px solid rgba(0,0,0,0.06);
-      transition: var(--transition);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .service-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--blue), var(--gold));
-      transform: scaleX(0);
-      transition: var(--transition);
-      transform-origin: left;
-    }
-
-    .service-card:hover {
-      transform: translateY(-6px);
-      box-shadow: var(--shadow-lg);
-      border-color: transparent;
-    }
-
+    .expertise-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
+    .expertise-item { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; font-weight: 500; color: var(--text-dark); }
+    .expertise-item i { color: var(--gold); font-size: 0.85rem; }
+    #services { background: var(--grey-light); }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; }
+    .service-card { background: var(--white); border-radius: var(--radius-lg); padding: 36px 28px; border: 1px solid rgba(0,0,0,0.06); transition: var(--transition); position: relative; overflow: hidden; }
+    .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--blue), var(--gold)); transform: scaleX(0); transition: var(--transition); transform-origin: left; }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: transparent; }
     .service-card:hover::before { transform: scaleX(1); }
-
-    .service-icon {
-      width: 56px;
-      height: 56px;
-      background: var(--navy);
-      border-radius: 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 24px;
-      font-size: 1.3rem;
-      color: var(--gold);
-      transition: var(--transition);
-    }
-
-    .service-card:hover .service-icon {
-      background: var(--blue);
-      transform: rotate(5deg);
-    }
-
-    .service-card h3 {
-      font-size: 1.1rem;
-      margin-bottom: 12px;
-      color: var(--text-dark);
-    }
-
-    .service-card p {
-      font-size: 0.88rem;
-      color: var(--grey-mid);
-      line-height: 1.75;
-    }
-
-    .service-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      margin-top: 20px;
-      color: var(--blue);
-      font-size: 0.85rem;
-      font-weight: 600;
-      transition: var(--transition);
-    }
-
+    .service-icon { width: 56px; height: 56px; background: var(--navy); border-radius: 14px; display: flex; align-items: center; justify-content: center; margin-bottom: 24px; font-size: 1.3rem; color: var(--gold); transition: var(--transition); }
+    .service-card:hover .service-icon { background: var(--blue); transform: rotate(5deg); }
+    .service-card h3 { font-size: 1.1rem; margin-bottom: 12px; color: var(--text-dark); }
+    .service-card p { font-size: 0.88rem; color: var(--grey-mid); line-height: 1.75; }
+    .service-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 20px; color: var(--blue); font-size: 0.85rem; font-weight: 600; transition: var(--transition); }
     .service-link:hover { gap: 10px; color: var(--navy); }
-
-    /* =========================================================
-       STATS / ACHIEVEMENTS
-    ========================================================= */
-    #stats {
-      background: var(--navy);
-      position: relative;
-      overflow: hidden;
-    }
-
-    #stats::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-image:
-        radial-gradient(circle at 10% 50%, rgba(26,77,181,0.4) 0%, transparent 40%),
-        radial-gradient(circle at 90% 50%, rgba(200,169,110,0.1) 0%, transparent 40%);
-    }
-
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 0;
-      position: relative;
-      z-index: 1;
-    }
-
-    .stat-item {
-      text-align: center;
-      padding: 56px 32px;
-      border-right: 1px solid rgba(255,255,255,0.08);
-      position: relative;
-    }
-
+    #stats { background: var(--navy); position: relative; overflow: hidden; }
+    #stats::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 10% 50%, rgba(26,77,181,0.4) 0%, transparent 40%), radial-gradient(circle at 90% 50%, rgba(200,169,110,0.1) 0%, transparent 40%); }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; position: relative; z-index: 1; }
+    .stat-item { text-align: center; padding: 56px 32px; border-right: 1px solid rgba(255,255,255,0.08); position: relative; }
     .stat-item:last-child { border-right: none; }
-
-    .stat-icon {
-      width: 52px;
-      height: 52px;
-      background: rgba(200,169,110,0.15);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 20px;
-      color: var(--gold);
-      font-size: 1.2rem;
-    }
-
-    .stat-number {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.5rem, 5vw, 3.8rem);
-      font-weight: 900;
-      color: var(--white);
-      line-height: 1;
-      margin-bottom: 8px;
-    }
-
+    .stat-icon { width: 52px; height: 52px; background: rgba(200,169,110,0.15); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: var(--gold); font-size: 1.2rem; }
+    .stat-number { font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 5vw, 3.8rem); font-weight: 900; color: var(--white); line-height: 1; margin-bottom: 8px; }
     .stat-number span { color: var(--gold); }
-
-    .stat-label {
-      font-size: 0.85rem;
-      color: rgba(255,255,255,0.5);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 500;
-    }
-
-    /* =========================================================
-       WHY CHOOSE US
-    ========================================================= */
-    #why-us {
-      background: var(--white);
-    }
-
-    .why-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: center;
-    }
-
+    .stat-label { font-size: 0.85rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 500; }
+    #why-us { background: var(--white); }
+    .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
     .why-list { display: flex; flex-direction: column; gap: 24px; }
-
-    .why-item {
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-    }
-
-    .why-icon {
-      width: 48px;
-      height: 48px;
-      background: var(--grey-light);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--blue);
-      font-size: 1.1rem;
-      flex-shrink: 0;
-      transition: var(--transition);
-    }
-
-    .why-item:hover .why-icon {
-      background: var(--navy);
-      color: var(--gold);
-    }
-
-    .why-item h4 {
-      font-size: 1rem;
-      margin-bottom: 6px;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 600;
-    }
-
-    .why-item p {
-      font-size: 0.88rem;
-      color: var(--grey-mid);
-      line-height: 1.7;
-    }
-
-    .why-visual {
-      background: var(--grey-light);
-      border-radius: var(--radius-lg);
-      padding: 48px;
-      position: relative;
-    }
-
-    .rating-card {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 28px;
-      box-shadow: var(--shadow-md);
-      margin-bottom: 20px;
-    }
-
+    .why-item { display: flex; gap: 20px; align-items: flex-start; }
+    .why-icon { width: 48px; height: 48px; background: var(--grey-light); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--blue); font-size: 1.1rem; flex-shrink: 0; transition: var(--transition); }
+    .why-item:hover .why-icon { background: var(--navy); color: var(--gold); }
+    .why-item h4 { font-size: 1rem; margin-bottom: 6px; font-family: 'DM Sans', sans-serif; font-weight: 600; }
+    .why-item p { font-size: 0.88rem; color: var(--grey-mid); line-height: 1.7; }
+    .why-visual { background: var(--grey-light); border-radius: var(--radius-lg); padding: 48px; position: relative; }
+    .rating-card { background: var(--white); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow-md); margin-bottom: 20px; }
     .rating-stars { color: #F5A623; font-size: 1.1rem; margin-bottom: 12px; }
-
-    .rating-big {
-      font-family: 'Playfair Display', serif;
-      font-size: 4rem;
-      font-weight: 900;
-      color: var(--navy);
-      line-height: 1;
-    }
-
-    .rating-label {
-      font-size: 0.85rem;
-      color: var(--grey-mid);
-      margin-top: 4px;
-    }
-
-    .cert-badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .cert-badge {
-      background: var(--white);
-      border-radius: 8px;
-      padding: 12px 18px;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--navy);
-      box-shadow: var(--shadow-sm);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
+    .rating-big { font-family: 'Playfair Display', serif; font-size: 4rem; font-weight: 900; color: var(--navy); line-height: 1; }
+    .rating-label { font-size: 0.85rem; color: var(--grey-mid); margin-top: 4px; }
+    .cert-badges { display: flex; flex-wrap: wrap; gap: 12px; }
+    .cert-badge { background: var(--white); border-radius: 8px; padding: 12px 18px; font-size: 0.82rem; font-weight: 600; color: var(--navy); box-shadow: var(--shadow-sm); display: flex; align-items: center; gap: 8px; }
     .cert-badge i { color: var(--gold); }
-
-    /* =========================================================
-       TESTIMONIALS
-    ========================================================= */
-    #testimonials {
-      background: var(--cream);
-    }
-
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .testimonial-card {
-      background: var(--white);
-      border-radius: var(--radius-lg);
-      padding: 32px;
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition);
-      border: 1px solid rgba(0,0,0,0.05);
-    }
-
-    .testimonial-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-    }
-
+    #testimonials { background: var(--cream); }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .testimonial-card { background: var(--white); border-radius: var(--radius-lg); padding: 32px; box-shadow: var(--shadow-sm); transition: var(--transition); border: 1px solid rgba(0,0,0,0.05); }
+    .testimonial-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
     .t-stars { color: #F5A623; font-size: 0.9rem; margin-bottom: 16px; }
-
-    .t-quote {
-      font-size: 0.95rem;
-      line-height: 1.8;
-      color: var(--text-body);
-      margin-bottom: 24px;
-      font-style: italic;
-    }
-
-    .t-author {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .t-avatar {
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: var(--navy);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--gold);
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      font-size: 1rem;
-      flex-shrink: 0;
-    }
-
-    .t-author strong {
-      display: block;
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: var(--text-dark);
-      font-family: 'DM Sans', sans-serif;
-    }
-
-    .t-author span {
-      font-size: 0.78rem;
-      color: var(--grey-mid);
-    }
-
-    /* =========================================================
-       VIDEOS
-    ========================================================= */
-    #videos {
-      background: var(--white);
-    }
-
-    .videos-scroll {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .video-card {
-      background: var(--white);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      box-shadow: var(--shadow-sm);
-      border: 1px solid rgba(0,0,0,0.06);
-      transition: var(--transition);
-    }
-
-    .video-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-    }
-
-    .video-embed {
-      position: relative;
-      padding-top: 56.25%;
-      background: var(--navy);
-      overflow: hidden;
-    }
-
-    .video-embed iframe {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      border: none;
-    }
-
+    .t-quote { font-size: 0.95rem; line-height: 1.8; color: var(--text-body); margin-bottom: 24px; font-style: italic; }
+    .t-author { display: flex; align-items: center; gap: 12px; }
+    .t-avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--navy); display: flex; align-items: center; justify-content: center; color: var(--gold); font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1rem; flex-shrink: 0; }
+    .t-author strong { display: block; font-size: 0.9rem; font-weight: 600; color: var(--text-dark); font-family: 'DM Sans', sans-serif; }
+    .t-author span { font-size: 0.78rem; color: var(--grey-mid); }
+    #videos { background: var(--white); }
+    .videos-scroll { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .video-card { background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid rgba(0,0,0,0.06); transition: var(--transition); }
+    .video-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+    .video-embed { position: relative; padding-top: 56.25%; background: var(--navy); overflow: hidden; }
+    .video-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
     .video-info { padding: 20px; }
-
-    .video-info h4 {
-      font-size: 0.95rem;
-      color: var(--text-dark);
-      margin-bottom: 8px;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 600;
-    }
-
-    .video-info p {
-      font-size: 0.83rem;
-      color: var(--grey-mid);
-      line-height: 1.6;
-    }
-
-    .video-tag {
-      display: inline-block;
-      background: rgba(26,77,181,0.08);
-      color: var(--blue);
-      font-size: 0.72rem;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 4px;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
-
-    /* =========================================================
-       NEWS
-    ========================================================= */
-    #news {
-      background: var(--grey-light);
-    }
-
-    .news-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .news-card {
-      background: var(--white);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition);
-    }
-
-    .news-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-    }
-
-    .news-category {
-      background: var(--navy);
-      color: var(--gold);
-      font-size: 0.72rem;
-      font-weight: 700;
-      padding: 6px 14px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-
+    .video-info h4 { font-size: 0.95rem; color: var(--text-dark); margin-bottom: 8px; font-family: 'DM Sans', sans-serif; font-weight: 600; }
+    .video-info p { font-size: 0.83rem; color: var(--grey-mid); line-height: 1.6; }
+    .video-tag { display: inline-block; background: rgba(26,77,181,0.08); color: var(--blue); font-size: 0.72rem; font-weight: 600; padding: 4px 10px; border-radius: 4px; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.06em; }
+    #news { background: var(--grey-light); }
+    .news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .news-card { background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); transition: var(--transition); }
+    .news-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+    .news-category { background: var(--navy); color: var(--gold); font-size: 0.72rem; font-weight: 700; padding: 6px 14px; text-transform: uppercase; letter-spacing: 0.08em; }
     .news-body { padding: 24px; }
-
-    .news-date {
-      font-size: 0.78rem;
-      color: var(--grey-mid);
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .news-card h4 {
-      font-size: 1rem;
-      color: var(--text-dark);
-      margin-bottom: 10px;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      line-height: 1.4;
-    }
-
-    .news-card p {
-      font-size: 0.87rem;
-      color: var(--grey-mid);
-      line-height: 1.7;
-      margin-bottom: 20px;
-    }
-
-    .read-more {
-      color: var(--blue);
-      font-size: 0.85rem;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      transition: var(--transition);
-    }
-
+    .news-date { font-size: 0.78rem; color: var(--grey-mid); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+    .news-card h4 { font-size: 1rem; color: var(--text-dark); margin-bottom: 10px; font-family: 'DM Sans', sans-serif; font-weight: 700; line-height: 1.4; }
+    .news-card p { font-size: 0.87rem; color: var(--grey-mid); line-height: 1.7; margin-bottom: 20px; }
+    .read-more { color: var(--blue); font-size: 0.85rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; transition: var(--transition); }
     .read-more:hover { gap: 10px; }
-
-    /* =========================================================
-       CONSULTATION FORM
-    ========================================================= */
-    #consultation {
-      background: var(--navy);
-      position: relative;
-      overflow: hidden;
-    }
-
-    #consultation::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-image:
-        radial-gradient(circle at 70% 50%, rgba(26,77,181,0.4) 0%, transparent 50%),
-        radial-gradient(circle at 20% 30%, rgba(200,169,110,0.08) 0%, transparent 40%);
-    }
-
-    .consultation-inner {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: center;
-      position: relative;
-      z-index: 1;
-    }
-
-    .consultation-info h2 {
-      color: var(--white);
-      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-      margin-bottom: 16px;
-    }
-
-    .consultation-info p {
-      color: rgba(255,255,255,0.65);
-      line-height: 1.8;
-      margin-bottom: 32px;
-    }
-
-    .contact-quick {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .contact-quick-item {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      color: rgba(255,255,255,0.8);
-      font-size: 0.9rem;
-    }
-
-    .contact-quick-icon {
-      width: 40px;
-      height: 40px;
-      background: rgba(200,169,110,0.15);
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--gold);
-      font-size: 0.9rem;
-      flex-shrink: 0;
-    }
-
-    .form-card {
-      background: var(--white);
-      border-radius: var(--radius-lg);
-      padding: 40px;
-    }
-
-    .form-card h3 {
-      font-size: 1.4rem;
-      margin-bottom: 24px;
-      color: var(--navy);
-    }
-
+    #consultation { background: var(--navy); position: relative; overflow: hidden; }
+    #consultation::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 70% 50%, rgba(26,77,181,0.4) 0%, transparent 50%), radial-gradient(circle at 20% 30%, rgba(200,169,110,0.08) 0%, transparent 40%); }
+    .consultation-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; position: relative; z-index: 1; }
+    .consultation-info h2 { color: var(--white); font-size: clamp(1.8rem, 3.5vw, 2.6rem); margin-bottom: 16px; }
+    .consultation-info p { color: rgba(255,255,255,0.65); line-height: 1.8; margin-bottom: 32px; }
+    .contact-quick { display: flex; flex-direction: column; gap: 16px; }
+    .contact-quick-item { display: flex; align-items: center; gap: 14px; color: rgba(255,255,255,0.8); font-size: 0.9rem; }
+    .contact-quick-icon { width: 40px; height: 40px; background: rgba(200,169,110,0.15); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 0.9rem; flex-shrink: 0; }
+    .form-card { background: var(--white); border-radius: var(--radius-lg); padding: 40px; }
+    .form-card h3 { font-size: 1.4rem; margin-bottom: 24px; color: var(--navy); }
     .form-group { margin-bottom: 18px; }
-
-    .form-group label {
-      display: block;
-      font-size: 0.83rem;
-      font-weight: 600;
-      color: var(--grey-dark);
-      margin-bottom: 6px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea {
-      width: 100%;
-      padding: 12px 16px;
-      border: 1.5px solid rgba(0,0,0,0.1);
-      border-radius: 8px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.93rem;
-      color: var(--text-dark);
-      background: var(--white);
-      transition: var(--transition);
-      outline: none;
-    }
-
-    .form-group input:focus,
-    .form-group select:focus,
-    .form-group textarea:focus {
-      border-color: var(--blue);
-      box-shadow: 0 0 0 3px rgba(26,77,181,0.08);
-    }
-
+    .form-group label { display: block; font-size: 0.83rem; font-weight: 600; color: var(--grey-dark); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px 16px; border: 1.5px solid rgba(0,0,0,0.1); border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 0.93rem; color: var(--text-dark); background: var(--white); transition: var(--transition); outline: none; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(26,77,181,0.08); }
     .form-group textarea { resize: vertical; min-height: 100px; }
-
-    .form-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
-
-    .form-submit {
-      width: 100%;
-      padding: 16px;
-      background: var(--navy);
-      color: var(--white);
-      border: none;
-      border-radius: 8px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: var(--transition);
-      margin-top: 8px;
-    }
-
-    .form-submit:hover {
-      background: var(--blue);
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
-    }
-
-    /* =========================================================
-       FAQ
-    ========================================================= */
-    #faq {
-      background: var(--white);
-    }
-
-    .faq-list {
-      max-width: 760px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .faq-item {
-      border: 1.5px solid rgba(0,0,0,0.08);
-      border-radius: var(--radius);
-      overflow: hidden;
-      transition: var(--transition);
-    }
-
-    .faq-item.open {
-      border-color: var(--blue);
-      box-shadow: 0 4px 20px rgba(26,77,181,0.08);
-    }
-
-    .faq-question {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 24px;
-      cursor: pointer;
-      background: var(--white);
-      gap: 16px;
-    }
-
-    .faq-question h4 {
-      font-size: 0.98rem;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 600;
-      color: var(--text-dark);
-      line-height: 1.4;
-    }
-
-    .faq-icon {
-      width: 28px;
-      height: 28px;
-      background: var(--grey-light);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--grey-dark);
-      font-size: 0.75rem;
-      flex-shrink: 0;
-      transition: var(--transition);
-    }
-
-    .faq-item.open .faq-icon {
-      background: var(--navy);
-      color: var(--gold);
-      transform: rotate(45deg);
-    }
-
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease, padding 0.3s ease;
-    }
-
-    .faq-answer.open {
-      max-height: 400px;
-    }
-
-    .faq-answer-inner {
-      padding: 0 24px 20px;
-      font-size: 0.91rem;
-      color: var(--grey-mid);
-      line-height: 1.8;
-    }
-
-    /* =========================================================
-       RESOURCES
-    ========================================================= */
-    #resources {
-      background: var(--cream);
-    }
-
-    .resources-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .resource-card {
-      background: var(--white);
-      border-radius: var(--radius-lg);
-      padding: 32px;
-      text-align: center;
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition);
-      border: 1px solid rgba(0,0,0,0.05);
-    }
-
-    .resource-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-md);
-    }
-
-    .resource-icon {
-      width: 64px;
-      height: 64px;
-      background: var(--navy);
-      border-radius: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 20px;
-      color: var(--gold);
-      font-size: 1.5rem;
-    }
-
-    .resource-card h4 {
-      font-size: 1rem;
-      margin-bottom: 10px;
-      color: var(--text-dark);
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-    }
-
-    .resource-card p {
-      font-size: 0.85rem;
-      color: var(--grey-mid);
-      line-height: 1.7;
-      margin-bottom: 20px;
-    }
-
-    .btn-download {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 24px;
-      background: var(--grey-light);
-      color: var(--navy);
-      border-radius: 6px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      transition: var(--transition);
-      border: none;
-      cursor: pointer;
-      font-family: 'DM Sans', sans-serif;
-    }
-
-    .btn-download:hover {
-      background: var(--navy);
-      color: var(--gold);
-    }
-
-    /* =========================================================
-       CONTACT
-    ========================================================= */
-    #contact {
-      background: var(--white);
-    }
-
-    .contact-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.4fr;
-      gap: 60px;
-    }
-
-    .contact-details {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-
-    .contact-item {
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-    }
-
-    .contact-item-icon {
-      width: 48px;
-      height: 48px;
-      background: var(--navy);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--gold);
-      font-size: 1rem;
-      flex-shrink: 0;
-    }
-
-    .contact-item strong {
-      display: block;
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--grey-dark);
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      margin-bottom: 4px;
-    }
-
-    .contact-item p, .contact-item a {
-      font-size: 0.95rem;
-      color: var(--text-body);
-      line-height: 1.6;
-    }
-
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-submit { width: 100%; padding: 16px; background: var(--navy); color: var(--white); border: none; border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 1rem; font-weight: 600; cursor: pointer; transition: var(--transition); margin-top: 8px; }
+    .form-submit:hover { background: var(--blue); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+    #faq { background: var(--white); }
+    .faq-list { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+    .faq-item { border: 1.5px solid rgba(0,0,0,0.08); border-radius: var(--radius); overflow: hidden; transition: var(--transition); }
+    .faq-item.open { border-color: var(--blue); box-shadow: 0 4px 20px rgba(26,77,181,0.08); }
+    .faq-question { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; cursor: pointer; background: var(--white); gap: 16px; }
+    .faq-question h4 { font-size: 0.98rem; font-family: 'DM Sans', sans-serif; font-weight: 600; color: var(--text-dark); line-height: 1.4; }
+    .faq-icon { width: 28px; height: 28px; background: var(--grey-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--grey-dark); font-size: 0.75rem; flex-shrink: 0; transition: var(--transition); }
+    .faq-item.open .faq-icon { background: var(--navy); color: var(--gold); transform: rotate(45deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s ease; }
+    .faq-answer.open { max-height: 400px; }
+    .faq-answer-inner { padding: 0 24px 20px; font-size: 0.91rem; color: var(--grey-mid); line-height: 1.8; }
+    #resources { background: var(--cream); }
+    .resources-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .resource-card { background: var(--white); border-radius: var(--radius-lg); padding: 32px; text-align: center; box-shadow: var(--shadow-sm); transition: var(--transition); border: 1px solid rgba(0,0,0,0.05); }
+    .resource-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+    .resource-icon { width: 64px; height: 64px; background: var(--navy); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: var(--gold); font-size: 1.5rem; }
+    .resource-card h4 { font-size: 1rem; margin-bottom: 10px; color: var(--text-dark); font-family: 'DM Sans', sans-serif; font-weight: 700; }
+    .resource-card p { font-size: 0.85rem; color: var(--grey-mid); line-height: 1.7; margin-bottom: 20px; }
+    .btn-download { display: inline-flex; align-items: center; gap: 8px; padding: 10px 24px; background: var(--grey-light); color: var(--navy); border-radius: 6px; font-size: 0.85rem; font-weight: 600; transition: var(--transition); border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; }
+    .btn-download:hover { background: var(--navy); color: var(--gold); }
+    #contact { background: var(--white); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 60px; }
+    .contact-details { display: flex; flex-direction: column; gap: 24px; }
+    .contact-item { display: flex; gap: 16px; align-items: flex-start; }
+    .contact-item-icon { width: 48px; height: 48px; background: var(--navy); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--gold); font-size: 1rem; flex-shrink: 0; }
+    .contact-item strong { display: block; font-size: 0.85rem; font-weight: 700; color: var(--grey-dark); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+    .contact-item p, .contact-item a { font-size: 0.95rem; color: var(--text-body); line-height: 1.6; }
     .contact-item a:hover { color: var(--blue); }
-
-    .whatsapp-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: #25D366;
-      color: var(--white);
-      padding: 14px 28px;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      transition: var(--transition);
-      margin-top: 8px;
-      width: fit-content;
-    }
-
-    .whatsapp-btn:hover {
-      background: #1DA851;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(37,211,102,0.3);
-    }
-
-    .map-container {
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      height: 320px;
-      margin-top: 24px;
-      box-shadow: var(--shadow-md);
-    }
-
-    .map-container iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-
-    /* =========================================================
-       FOOTER
-    ========================================================= */
-    footer {
-      background: var(--text-dark);
-      color: rgba(255,255,255,0.65);
-      padding: 64px 0 32px;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 48px;
-      padding-bottom: 48px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
-      margin-bottom: 32px;
-    }
-
-    .footer-brand p {
-      font-size: 0.88rem;
-      line-height: 1.8;
-      margin: 16px 0 24px;
-      max-width: 280px;
-    }
-
-    .footer-social {
-      display: flex;
-      gap: 10px;
-    }
-
-    .social-btn {
-      width: 36px;
-      height: 36px;
-      background: rgba(255,255,255,0.06);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: rgba(255,255,255,0.65);
-      font-size: 0.9rem;
-      transition: var(--transition);
-    }
-
-    .social-btn:hover {
-      background: var(--gold);
-      color: var(--navy);
-    }
-
-    .footer-col h5 {
-      color: var(--white);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 20px;
-    }
-
-    .footer-links {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .footer-links a {
-      font-size: 0.88rem;
-      transition: var(--transition);
-    }
-
+    .whatsapp-btn { display: inline-flex; align-items: center; gap: 10px; background: #25D366; color: var(--white); padding: 14px 28px; border-radius: 8px; font-weight: 600; font-size: 0.95rem; transition: var(--transition); margin-top: 8px; width: fit-content; }
+    .whatsapp-btn:hover { background: #1DA851; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,211,102,0.3); }
+    .map-container { border-radius: var(--radius-lg); overflow: hidden; height: 320px; margin-top: 24px; box-shadow: var(--shadow-md); }
+    .map-container iframe { width: 100%; height: 100%; border: none; }
+    footer { background: var(--text-dark); color: rgba(255,255,255,0.65); padding: 64px 0 32px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 32px; }
+    .footer-brand p { font-size: 0.88rem; line-height: 1.8; margin: 16px 0 24px; max-width: 280px; }
+    .footer-social { display: flex; gap: 10px; }
+    .social-btn { width: 36px; height: 36px; background: rgba(255,255,255,0.06); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.65); font-size: 0.9rem; transition: var(--transition); }
+    .social-btn:hover { background: var(--gold); color: var(--navy); }
+    .footer-col h5 { color: var(--white); font-family: 'DM Sans', sans-serif; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 20px; }
+    .footer-links { display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { font-size: 0.88rem; transition: var(--transition); }
     .footer-links a:hover { color: var(--gold); padding-left: 4px; }
-
-    .footer-bottom {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-      font-size: 0.82rem;
-    }
-
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 0.82rem; }
     .footer-bottom a { transition: var(--transition); }
     .footer-bottom a:hover { color: var(--gold); }
-
-    /* =========================================================
-       FLOATING WHATSAPP
-    ========================================================= */
-    .floating-wa {
-      position: fixed;
-      bottom: 28px;
-      right: 28px;
-      width: 56px;
-      height: 56px;
-      background: #25D366;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--white);
-      font-size: 1.4rem;
-      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
-      z-index: 999;
-      transition: var(--transition);
-    }
-
-    .floating-wa:hover {
-      transform: scale(1.1);
-      box-shadow: 0 8px 30px rgba(37,211,102,0.5);
-    }
-
-    /* =========================================================
-       SCROLL TO TOP
-    ========================================================= */
-    .scroll-top {
-      position: fixed;
-      bottom: 96px;
-      right: 28px;
-      width: 44px;
-      height: 44px;
-      background: var(--navy);
-      color: var(--white);
-      border: none;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      z-index: 999;
-      opacity: 0;
-      transform: translateY(10px);
-      transition: var(--transition);
-      font-size: 0.85rem;
-    }
-
-    .scroll-top.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
+    .floating-wa { position: fixed; bottom: 28px; right: 28px; width: 56px; height: 56px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 1.4rem; box-shadow: 0 4px 20px rgba(37,211,102,0.4); z-index: 999; transition: var(--transition); }
+    .floating-wa:hover { transform: scale(1.1); box-shadow: 0 8px 30px rgba(37,211,102,0.5); }
+    .scroll-top { position: fixed; bottom: 96px; right: 28px; width: 44px; height: 44px; background: var(--navy); color: var(--white); border: none; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 999; opacity: 0; transform: translateY(10px); transition: var(--transition); font-size: 0.85rem; }
+    .scroll-top.visible { opacity: 1; transform: translateY(0); }
     .scroll-top:hover { background: var(--blue); }
-
-    /* =========================================================
-       ANIMATIONS
-    ========================================================= */
-    .fade-in {
-      opacity: 0;
-      transform: translateY(24px);
-      transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
     .fade-in-delay-1 { transition-delay: 0.1s; }
     .fade-in-delay-2 { transition-delay: 0.2s; }
     .fade-in-delay-3 { transition-delay: 0.3s; }
-
-    /* =========================================================
-       SUCCESS MESSAGE
-    ========================================================= */
-    .success-msg {
-      display: none;
-      background: rgba(37,211,102,0.1);
-      border: 1px solid rgba(37,211,102,0.3);
-      color: #1DA851;
-      padding: 14px 20px;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      margin-top: 12px;
-      text-align: center;
-    }
-
-    /* =========================================================
-       RESPONSIVE
-    ========================================================= */
+    .success-msg { display: none; background: rgba(37,211,102,0.1); border: 1px solid rgba(37,211,102,0.3); color: #1DA851; padding: 14px 20px; border-radius: 8px; font-size: 0.9rem; font-weight: 500; margin-top: 12px; text-align: center; }
     @media (max-width: 1024px) {
       .hero-right { display: none; }
       .stats-grid { grid-template-columns: repeat(2, 1fr); }
       .stat-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.08); }
-      .stat-item:nth-child(2n) { border-bottom: 1px solid rgba(255,255,255,0.08); }
-      .stat-item:last-child, .stat-item:nth-last-child(2):nth-child(odd) { border-bottom: none; }
       .footer-grid { grid-template-columns: 1fr 1fr; }
     }
-
     @media (max-width: 900px) {
-      .about-grid, .why-grid, .consultation-inner, .contact-grid {
-        grid-template-columns: 1fr;
-        gap: 48px;
-      }
+      .about-grid, .why-grid, .consultation-inner, .contact-grid { grid-template-columns: 1fr; gap: 48px; }
       .about-badge { right: 24px; }
-      .testimonials-grid, .videos-scroll, .news-grid, .resources-grid {
-        grid-template-columns: 1fr 1fr;
-      }
+      .testimonials-grid, .videos-scroll, .news-grid, .resources-grid { grid-template-columns: 1fr 1fr; }
       .nav-links { display: none; }
       .hamburger { display: flex; }
     }
-
     @media (max-width: 640px) {
       .section-pad { padding: 64px 0; }
-      .testimonials-grid, .videos-scroll, .news-grid, .resources-grid, .services-grid {
-        grid-template-columns: 1fr;
-      }
+      .testimonials-grid, .videos-scroll, .news-grid, .resources-grid, .services-grid { grid-template-columns: 1fr; }
       .stats-grid { grid-template-columns: 1fr 1fr; }
       .hero-actions { flex-direction: column; }
       .hero-stats { gap: 24px; }
@@ -1725,9 +321,6 @@
 </head>
 <body>
 
-  <!-- ============================
-       NAVBAR
-  ============================= -->
   <nav id="navbar">
     <div class="container nav-inner">
       <a href="#" class="nav-logo">
@@ -1737,7 +330,6 @@
           <span>Tax Consultant · Delhi</span>
         </div>
       </a>
-
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
@@ -1748,14 +340,12 @@
         <li><a href="#contact">Contact</a></li>
         <li><a href="#consultation" class="nav-cta">Book Consultation</a></li>
       </ul>
-
       <div class="hamburger" onclick="toggleMenu()">
         <span></span><span></span><span></span>
       </div>
     </div>
   </nav>
 
-  <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
     <button class="mobile-close" onclick="toggleMenu()"><i class="fas fa-times"></i></button>
     <a href="#about" onclick="toggleMenu()">About</a>
@@ -1768,9 +358,6 @@
     <a href="#consultation" onclick="toggleMenu()" style="color: var(--gold)">Book Consultation</a>
   </div>
 
-  <!-- ============================
-       HERO
-  ============================= -->
   <section id="hero">
     <div class="hero-bg-pattern"></div>
     <div class="hero-grid-lines"></div>
@@ -1778,10 +365,10 @@
       <div class="hero-content">
         <div class="hero-badge">
           <i class="fas fa-star"></i>
-          Trusted CA Services Since 2005
+          Trusted CA Services Since 2015
         </div>
         <h1 class="hero-title">
-          Trusted <span class="accent">Chartered Accountant</span><br />
+          Trusted <span class="accent">Income Tax Consultant</span><br />
           in Delhi for Taxation,<br />
           GST &amp; Auditing
         </h1>
@@ -1792,63 +379,42 @@
           <a href="#consultation" class="btn btn-primary">
             <i class="fas fa-calendar-check"></i> Book Free Consultation
           </a>
-          <a href="tel:+91XXXXXXXXXX" class="btn btn-outline">
+          <a href="tel:+919811267961" class="btn btn-outline">
             <i class="fas fa-phone"></i> Call Now
           </a>
         </div>
         <div class="hero-stats">
           <div class="hero-stat">
-            <strong>5000<span>+</span></strong>
+            <strong>500<span>+</span></strong>
             <span>GST Returns Filed</span>
           </div>
           <div class="hero-stat">
-            <strong>3000<span>+</span></strong>
+            <strong>1000<span>+</span></strong>
             <span>ITR Filed</span>
           </div>
           <div class="hero-stat">
-            <strong>20<span>+</span></strong>
+            <strong>10<span>+</span></strong>
             <span>Years Experience</span>
           </div>
         </div>
       </div>
     </div>
-
     <div class="hero-right">
       <div class="hero-card">
         <h3>Our Core Services</h3>
         <div class="hero-card-items">
-          <div class="hero-card-item">
-            <i class="fas fa-file-invoice-dollar"></i>
-            GST Filing &amp; Registration
-          </div>
-          <div class="hero-card-item">
-            <i class="fas fa-calculator"></i>
-            Income Tax Returns
-          </div>
-          <div class="hero-card-item">
-            <i class="fas fa-search-dollar"></i>
-            Financial Auditing
-          </div>
-          <div class="hero-card-item">
-            <i class="fas fa-chart-line"></i>
-            Financial Advisory
-          </div>
-          <div class="hero-card-item">
-            <i class="fas fa-building"></i>
-            Business Compliance
-          </div>
-          <div class="hero-card-item">
-            <i class="fas fa-shield-alt"></i>
-            Tax Planning
-          </div>
+          <div class="hero-card-item"><i class="fas fa-file-invoice-dollar"></i> GST Filing &amp; Registration</div>
+          <div class="hero-card-item"><i class="fas fa-calculator"></i> Income Tax Returns</div>
+          <div class="hero-card-item"><i class="fas fa-search-dollar"></i> Financial Auditing</div>
+          <div class="hero-card-item"><i class="fas fa-chart-line"></i> Financial Advisory</div>
+          <div class="hero-card-item"><i class="fas fa-store"></i> MSME Registration</div>
+          <div class="hero-card-item"><i class="fas fa-gavel"></i> Income Tax Cases</div>
+          <div class="hero-card-item"><i class="fas fa-landmark"></i> IT Dept. Related Work</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       TRUST BAR
-  ============================= -->
   <div id="trust-bar">
     <div class="container">
       <div class="trust-inner">
@@ -1862,15 +428,11 @@
     </div>
   </div>
 
-  <!-- ============================
-       ABOUT
-  ============================= -->
   <section id="about" class="section-pad">
     <div class="container">
       <div class="about-grid">
         <div class="about-visual fade-in">
           <div class="about-img-frame">
-            <!-- Replace this div with an <img> tag when you have your photo -->
             <div class="about-placeholder">
               <i class="fas fa-user-tie"></i>
               <p>Add your professional<br />photo here</p>
@@ -1879,37 +441,31 @@
           <div class="about-badge">
             <div class="about-badge-icon"><i class="fas fa-certificate"></i></div>
             <div>
-              <!-- EDIT: Update years of experience -->
-              <strong>20+</strong>
+              <strong>10+</strong>
               <span>Years of Practice</span>
             </div>
           </div>
         </div>
-
         <div class="fade-in fade-in-delay-1">
           <div class="section-tag">About Me</div>
-          <!-- EDIT: Replace with your name -->
           <h2 class="section-title">Your Trusted CA Partner in Delhi</h2>
           <p style="margin-bottom: 16px;">
-            <!-- EDIT: Replace with your bio -->
             I am a tax consultant with over 10 years of experience serving individuals, MSMEs, and corporates across Delhi.
           </p>
           <p style="margin-bottom: 24px; color: var(--grey-mid); font-size: 0.93rem; line-height: 1.8;">
-            My practice is built on three principles: accuracy, timely delivery, and transparent communication. I have helped hundreds of businesses navigate India's complex tax landscape — from GST compliance to income tax planning and statutory auditing.
+            My practice is built on three principles: accuracy, timely delivery, and transparent communication. I have helped hundreds of businesses navigate India's complex tax landscape — from GST compliance to income tax planning, statutory auditing, MSME registration, and representing clients before income tax authorities.
           </p>
-
           <div class="about-expertise">
             <p style="font-weight: 600; color: var(--text-dark); margin-bottom: 12px;">Core Areas of Expertise:</p>
             <ul class="expertise-list">
               <li class="expertise-item"><i class="fas fa-check-circle"></i> GST Filing &amp; Advisory</li>
               <li class="expertise-item"><i class="fas fa-check-circle"></i> Income Tax Planning</li>
               <li class="expertise-item"><i class="fas fa-check-circle"></i> Statutory Auditing</li>
-              <li class="expertise-item"><i class="fas fa-check-circle"></i> Financial Advisory</li>
-              <li class="expertise-item"><i class="fas fa-check-circle"></i> Business Registration</li>
-              <li class="expertise-item"><i class="fas fa-check-circle"></i> Corporate Compliance</li>
+              <li class="expertise-item"><i class="fas fa-check-circle"></i> MSME Registration</li>
+              <li class="expertise-item"><i class="fas fa-check-circle"></i> Income Tax Cases</li>
+              <li class="expertise-item"><i class="fas fa-check-circle"></i> IT Dept. Liaison Work</li>
             </ul>
           </div>
-
           <a href="#consultation" class="btn btn-navy">
             <i class="fas fa-calendar-alt"></i> Schedule a Meeting
           </a>
@@ -1918,9 +474,6 @@
     </div>
   </section>
 
-  <!-- ============================
-       SERVICES
-  ============================= -->
   <section id="services" class="section-pad">
     <div class="container">
       <div class="section-header center fade-in">
@@ -1930,6 +483,7 @@
       </div>
 
       <div class="services-grid">
+
         <!-- Service 1 -->
         <div class="service-card fade-in">
           <div class="service-icon"><i class="fas fa-search-dollar"></i></div>
@@ -1993,44 +547,68 @@
           <p>Preparation of CMA data, project reports for bank loans, concurrent audits, and stock audits for banks and financial institutions.</p>
           <a href="#consultation" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
         </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- NEW SERVICE 9: MSME Registration              -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="service-card fade-in fade-in-delay-2">
+          <div class="service-icon"><i class="fas fa-store"></i></div>
+          <h3>MSME Registration (Udyam)</h3>
+          <p>Hassle-free Udyam / MSME registration on the government portal. Unlock government schemes, priority sector lending, subsidies, and protection under the MSMED Act for your business.</p>
+          <a href="#consultation" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- NEW SERVICE 10: Income Tax Cases              -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="service-card fade-in">
+          <div class="service-icon"><i class="fas fa-gavel"></i></div>
+          <h3>Income Tax Cases &amp; Appeals</h3>
+          <p>Expert handling of income tax scrutiny cases, assessment proceedings, penalty matters, and appeals before CIT(A) and ITAT. We prepare and present your case with thorough documentation and legal precision.</p>
+          <a href="#consultation" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <!-- ══════════════════════════════════════════════════════ -->
+        <!-- NEW SERVICE 11: Income Tax Department Related Work   -->
+        <!-- ══════════════════════════════════════════════════════ -->
+        <div class="service-card fade-in fade-in-delay-1">
+          <div class="service-icon"><i class="fas fa-landmark"></i></div>
+          <h3>Income Tax Dept. Related Work</h3>
+          <p>Complete assistance with income tax notices, demand rectifications, refund follow-ups, PAN/TAN applications, Form 15CA/CB, TDS returns, and all correspondence with the Income Tax Department.</p>
+          <a href="#consultation" class="service-link">Enquire Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       STATS
-  ============================= -->
   <section id="stats" class="section-pad-sm">
     <div class="container">
       <div class="stats-grid">
-        <!-- EDIT: Update these numbers to match your actual statistics -->
         <div class="stat-item fade-in">
           <div class="stat-icon"><i class="fas fa-file-invoice"></i></div>
-          <div class="stat-number" data-target="5000"><span>0</span>+</div>
+          <div class="stat-number" data-target="500"><span>0</span>+</div>
           <div class="stat-label">GST Returns Filed (Last 10 Yrs)</div>
         </div>
         <div class="stat-item fade-in fade-in-delay-1">
           <div class="stat-icon"><i class="fas fa-receipt"></i></div>
-          <div class="stat-number" data-target="3000"><span>0</span>+</div>
+          <div class="stat-number" data-target="1000"><span>0</span>+</div>
           <div class="stat-label">Income Tax Returns Filed</div>
         </div>
         <div class="stat-item fade-in fade-in-delay-2">
           <div class="stat-icon"><i class="fas fa-users"></i></div>
-          <div class="stat-number" data-target="500"><span>0</span>+</div>
+          <div class="stat-number" data-target="1500"><span>0</span>+</div>
           <div class="stat-label">Business Clients Served</div>
         </div>
         <div class="stat-item fade-in fade-in-delay-3">
           <div class="stat-icon"><i class="fas fa-star"></i></div>
-          <div class="stat-number" data-target="20"><span>0</span>+</div>
+          <div class="stat-number" data-target="10"><span>0</span>+</div>
           <div class="stat-label">Years of Experience</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       WHY CHOOSE US
-  ============================= -->
   <section id="why-us" class="section-pad">
     <div class="container">
       <div class="why-grid">
@@ -2040,15 +618,7 @@
           <p style="color: var(--grey-mid); margin-bottom: 36px; line-height: 1.8;">
             Clients choose us because we combine deep technical expertise with genuine care for their financial wellbeing.
           </p>
-
           <div class="why-list">
-            <div class="why-item">
-              <div class="why-icon"><i class="fas fa-award"></i></div>
-              <div>
-                <h4>ICAI Certified Chartered Accountant</h4>
-                <p>Fully qualified and registered with the Institute of Chartered Accountants of India with an impeccable track record.</p>
-              </div>
-            </div>
             <div class="why-item">
               <div class="why-icon"><i class="fas fa-eye"></i></div>
               <div>
@@ -2072,7 +642,6 @@
             </div>
           </div>
         </div>
-
         <div class="fade-in fade-in-delay-1">
           <div class="why-visual">
             <div class="rating-card">
@@ -2081,12 +650,12 @@
               <div class="rating-label">Average client rating · 200+ reviews</div>
             </div>
             <div class="cert-badges">
-              <div class="cert-badge"><i class="fas fa-certificate"></i> ICAI Member</div>
+              <div class="cert-badge"><i class="fas fa-certificate"></i> TAX Consultant</div>
               <div class="cert-badge"><i class="fas fa-check-circle"></i> GST Practitioner</div>
-              <div class="cert-badge"><i class="fas fa-star"></i> 20+ Yrs Experience</div>
+              <div class="cert-badge"><i class="fas fa-star"></i> 10+ Yrs Experience</div>
               <div class="cert-badge"><i class="fas fa-shield-alt"></i> Compliant Practice</div>
-              <div class="cert-badge"><i class="fas fa-building"></i> Delhi Based</div>
-              <div class="cert-badge"><i class="fas fa-handshake"></i> 500+ Clients</div>
+              <div class="cert-badge"><i class="fas fa-store"></i> MSME Specialist</div>
+              <div class="cert-badge"><i class="fas fa-gavel"></i> IT Case Expert</div>
             </div>
           </div>
         </div>
@@ -2094,9 +663,6 @@
     </div>
   </section>
 
-  <!-- ============================
-       TESTIMONIALS
-  ============================= -->
   <section id="testimonials" class="section-pad">
     <div class="container">
       <div class="section-header center fade-in">
@@ -2104,87 +670,59 @@
         <h2 class="section-title">What Our Clients Say</h2>
         <p class="section-subtitle">Real feedback from businesses and individuals we've helped navigate India's financial landscape.</p>
       </div>
-
       <div class="testimonials-grid">
-        <!-- EDIT: Replace with real client testimonials -->
         <div class="testimonial-card fade-in">
           <div class="t-stars">★★★★★</div>
           <p class="t-quote">"Excellent service! They handled our company's GST and income tax filing with complete professionalism. We've been clients for 5 years and highly recommend their services."</p>
           <div class="t-author">
             <div class="t-avatar">RK</div>
-            <div>
-              <strong>Rajesh Kumar</strong>
-              <span>Director, RK Enterprises, Delhi</span>
-            </div>
+            <div><strong>Rajesh Kumar</strong><span>Director, RK Enterprises, Delhi</span></div>
           </div>
         </div>
-
         <div class="testimonial-card fade-in fade-in-delay-1">
           <div class="t-stars">★★★★★</div>
           <p class="t-quote">"Very knowledgeable and responsive CA. Helped us save significant taxes through proper planning. The team is always available to answer our queries promptly."</p>
           <div class="t-author">
             <div class="t-avatar">PS</div>
-            <div>
-              <strong>Priya Sharma</strong>
-              <span>Proprietor, PS Trading Co.</span>
-            </div>
+            <div><strong>Priya Sharma</strong><span>Proprietor, PS Trading Co.</span></div>
           </div>
         </div>
-
         <div class="testimonial-card fade-in fade-in-delay-2">
           <div class="t-stars">★★★★★</div>
-          <p class="t-quote">"As a startup founder, I needed reliable CA guidance from day one. They helped us set up GST, handle ROC compliance, and file our first year returns smoothly."</p>
+          <p class="t-quote">"They guided us through MSME registration and IT department notices seamlessly. Their expertise in income tax cases saved us from a significant demand. Truly reliable professionals."</p>
           <div class="t-author">
             <div class="t-avatar">AM</div>
-            <div>
-              <strong>Arjun Mehta</strong>
-              <span>Founder, TechVenture Pvt. Ltd.</span>
-            </div>
+            <div><strong>Arjun Mehta</strong><span>Founder, TechVenture Pvt. Ltd.</span></div>
           </div>
         </div>
-
         <div class="testimonial-card fade-in">
           <div class="t-stars">★★★★☆</div>
           <p class="t-quote">"Professional, punctual, and thorough. Our audit was completed ahead of schedule and the financial advisory given helped us restructure our business more efficiently."</p>
           <div class="t-author">
             <div class="t-avatar">SG</div>
-            <div>
-              <strong>Sunita Gupta</strong>
-              <span>CFO, Gupta Manufacturing</span>
-            </div>
+            <div><strong>Sunita Gupta</strong><span>CFO, Gupta Manufacturing</span></div>
           </div>
         </div>
-
         <div class="testimonial-card fade-in fade-in-delay-1">
           <div class="t-stars">★★★★★</div>
           <p class="t-quote">"I've been filing my personal ITR with them for 8 years. They always identify deductions I would have missed. Honest, reliable, and truly client-focused professionals."</p>
           <div class="t-author">
             <div class="t-avatar">VB</div>
-            <div>
-              <strong>Vijay Bansal</strong>
-              <span>Senior Manager, Private Sector</span>
-            </div>
+            <div><strong>Vijay Bansal</strong><span>Senior Manager, Private Sector</span></div>
           </div>
         </div>
-
         <div class="testimonial-card fade-in fade-in-delay-2">
           <div class="t-stars">★★★★★</div>
           <p class="t-quote">"Highly professional team. They handled our GST notice response brilliantly and ensured full compliance. We felt completely supported throughout the process."</p>
           <div class="t-author">
             <div class="t-avatar">NK</div>
-            <div>
-              <strong>Neha Kapoor</strong>
-              <span>Partner, NK Associates</span>
-            </div>
+            <div><strong>Neha Kapoor</strong><span>Partner, NK Associates</span></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       VIDEOS
-  ============================= -->
   <section id="videos" class="section-pad">
     <div class="container">
       <div class="section-header center fade-in">
@@ -2192,30 +730,10 @@
         <h2 class="section-title">Learn About Taxation &amp; Finance</h2>
         <p class="section-subtitle">Useful guides on GST filing, income tax, and business finance — explained simply.</p>
       </div>
-
-      <!--
-        HOW TO ADD/EDIT VIDEOS:
-        1. Go to YouTube and find the video you want to embed
-        2. Click Share → Embed → Copy the iframe code
-        3. Replace the src URL in the iframe below with your YouTube embed URL
-        4. Update the title and description text
-        5. To add more videos, copy the entire .video-card block and paste it
-      -->
-
       <div class="videos-scroll">
-        <!-- Video 1: EDIT src, title, and description -->
         <div class="video-card fade-in">
           <div class="video-embed">
-            <iframe 
-  width="560" 
-  height="315" 
-  src="https://www.youtube.com/embed/tq56K59jg84" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>
+            <iframe src="https://www.youtube.com/embed/tq56K59jg84" title="How to File GST Returns" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <div class="video-tag">GST</div>
@@ -2223,16 +741,9 @@
             <p>A complete walkthrough of filing GSTR-1, GSTR-3B, and GSTR-9 annual returns for businesses.</p>
           </div>
         </div>
-
-        <!-- Video 2: EDIT src, title, and description -->
         <div class="video-card fade-in fade-in-delay-1">
           <div class="video-embed">
-            <iframe
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="Income Tax Filing Tips for Salaried Employees"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Income Tax Filing Tips for Salaried Employees" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <div class="video-tag">Income Tax</div>
@@ -2240,16 +751,9 @@
             <p>How to maximize deductions under 80C, 80D, and HRA exemptions when filing your ITR.</p>
           </div>
         </div>
-
-        <!-- Video 3: EDIT src, title, and description -->
         <div class="video-card fade-in fade-in-delay-2">
           <div class="video-embed">
-            <iframe
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="Small Business Accounting Basics"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-            </iframe>
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Small Business Accounting Basics" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <div class="video-tag">Business Finance</div>
@@ -2258,9 +762,7 @@
           </div>
         </div>
       </div>
-
       <div style="text-align: center; margin-top: 40px;">
-        <!-- EDIT: Link to your YouTube channel -->
         <a href="https://www.youtube.com/@yourchannel" target="_blank" class="btn btn-navy">
           <i class="fab fa-youtube"></i> View All Videos on YouTube
         </a>
@@ -2268,9 +770,6 @@
     </div>
   </section>
 
-  <!-- ============================
-       NEWS
-  ============================= -->
   <section id="news" class="section-pad">
     <div class="container">
       <div class="section-header center fade-in">
@@ -2278,42 +777,29 @@
         <h2 class="section-title">Tax News &amp; Financial Updates</h2>
         <p class="section-subtitle">Stay informed about the latest changes in GST, income tax, and corporate compliance laws.</p>
       </div>
-
-      <!--
-        HOW TO ADD NEWS ITEMS:
-        - Copy an entire .news-card block
-        - Paste it inside .news-grid
-        - Update the category, date, title, summary, and "Read More" link
-      -->
-
       <div class="news-grid">
-        <!-- News 1: EDIT content below -->
         <div class="news-card fade-in">
           <div class="news-category">GST Update</div>
           <div class="news-body">
-            <div class="news-date"><i class="far fa-calendar"></i> <!-- EDIT DATE --> January 2025</div>
+            <div class="news-date"><i class="far fa-calendar"></i> January 2025</div>
             <h4>New GST Rules for E-Commerce Operators — What You Need to Know</h4>
             <p>CBIC has issued new guidelines for e-commerce operators regarding TCS collection and reporting requirements effective from Q1 2025.</p>
             <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
-        <!-- News 2: EDIT content below -->
         <div class="news-card fade-in fade-in-delay-1">
           <div class="news-category">Income Tax</div>
           <div class="news-body">
-            <div class="news-date"><i class="far fa-calendar"></i> <!-- EDIT DATE --> February 2025</div>
+            <div class="news-date"><i class="far fa-calendar"></i> February 2025</div>
             <h4>Budget 2025: Key Changes in Personal Income Tax Slabs</h4>
             <p>Union Budget 2025 introduces revised tax slabs under the new regime, making it more attractive for middle-income taxpayers.</p>
             <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-
-        <!-- News 3: EDIT content below -->
         <div class="news-card fade-in fade-in-delay-2">
           <div class="news-category">Compliance</div>
           <div class="news-body">
-            <div class="news-date"><i class="far fa-calendar"></i> <!-- EDIT DATE --> March 2025</div>
+            <div class="news-date"><i class="far fa-calendar"></i> March 2025</div>
             <h4>MCA Update: New Compliance Deadlines for Private Limited Companies</h4>
             <p>Ministry of Corporate Affairs has revised ROC filing deadlines for financial year 2024-25. Here's what directors need to do.</p>
             <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
@@ -2323,9 +809,6 @@
     </div>
   </section>
 
-  <!-- ============================
-       CONSULTATION FORM
-  ============================= -->
   <section id="consultation" class="section-pad">
     <div class="container">
       <div class="consultation-inner">
@@ -2333,14 +816,11 @@
           <div class="section-tag" style="background: rgba(200,169,110,0.15); border-color: rgba(200,169,110,0.3);">Book a Consultation</div>
           <h2>Let's Discuss Your Financial Needs</h2>
           <p>Schedule a free, no-obligation consultation. We'll review your situation and suggest the best approach for your tax and compliance requirements.</p>
-
           <div class="contact-quick">
-            <!-- EDIT: Update phone number -->
             <div class="contact-quick-item">
               <div class="contact-quick-icon"><i class="fas fa-phone"></i></div>
               <span>+91-9811267961</span>
             </div>
-            <!-- EDIT: Update email -->
             <div class="contact-quick-item">
               <div class="contact-quick-icon"><i class="fas fa-envelope"></i></div>
               <span>ntn290943@gmail.com</span>
@@ -2355,57 +835,65 @@
             </div>
           </div>
         </div>
-
         <div class="form-card fade-in fade-in-delay-1">
           <h3>Request a Free Consultation</h3>
-          <form id="consultationForm" onsubmit="handleFormSubmit(event, 'consultationForm')">
-            <div class="form-row">
-              <div class="form-group">
-                <label>Full Name *</label>
-                <input type="text" placeholder="Your Name" required />
-              </div>
-              <div class="form-group">
-                <label>Phone Number *</label>
-                <input type="tel" placeholder="+91 XXXXX XXXXX" required />
-              </div>
-            </div>
-            <div class="form-group">
-              <label>Email Address *</label>
-              <input type="email" placeholder="you@example.com" required />
-            </div>
-            <div class="form-group">
-              <label>Service Required</label>
-              <select>
-                <option value="">Select a Service</option>
-                <option>GST Registration / Filing</option>
-                <option>Income Tax Return Filing</option>
-                <option>Financial Auditing</option>
-                <option>Financial Advisory</option>
-                <option>Business Compliance / ROC</option>
-                <option>Tax Planning</option>
-                <option>Startup Services</option>
-                <option>Other</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Message</label>
-              <textarea placeholder="Briefly describe your requirements..."></textarea>
-            </div>
-            <button type="submit" class="form-submit">
-              <i class="fas fa-paper-plane"></i>&nbsp; Send Consultation Request
-            </button>
-            <div class="success-msg" id="consultationForm-success">
-              ✓ Thank you! We'll contact you within 24 hours.
-            </div>
-          </form>
+          <form id="consultationForm"
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      onsubmit="handleFormSubmit(event, 'consultationForm')">
+
+  <input type="hidden" name="access_key" value="f3db5fa1-8c99-4d40-9f1c-8ee2de5216a6" />
+  <input type="hidden" name="subject" value="New Consultation Request - Delhi CA" />
+  <input type="hidden" name="from_name" value="CA Delhi Website" />
+  <input type="checkbox" name="botcheck" style="display:none" />
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Full Name *</label>
+      <input type="text" name="full_name" placeholder="Your Name" required />
+    </div>
+    <div class="form-group">
+      <label>Phone Number *</label>
+      <input type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required />
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Email Address *</label>
+    <input type="email" name="email" placeholder="you@example.com" required />
+  </div>
+  <div class="form-group">
+    <label>Service Required</label>
+    <select name="service">
+      <option value="">Select a Service</option>
+      <option>GST Registration / Filing</option>
+      <option>Income Tax Return Filing</option>
+      <option>Financial Auditing</option>
+      <option>Financial Advisory</option>
+      <option>Business Compliance / ROC</option>
+      <option>Tax Planning</option>
+      <option>Startup Services</option>
+      <option>MSME Registration (Udyam)</option>
+      <option>Income Tax Cases &amp; Appeals</option>
+      <option>Income Tax Dept. Related Work</option>
+      <option>Other</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label>Message</label>
+    <textarea name="message" placeholder="Briefly describe your requirements..."></textarea>
+  </div>
+  <button type="submit" class="form-submit">
+    <i class="fas fa-paper-plane"></i>&nbsp; Send Consultation Request
+  </button>
+  <div class="success-msg" id="consultationForm-success">
+    ✓ Thank you! We'll contact you within 24 hours.
+  </div>
+</form>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       FAQ
-  ============================= -->
   <section id="faq" class="section-pad">
     <div class="container">
       <div class="section-header center fade-in">
@@ -2413,89 +901,74 @@
         <h2 class="section-title">Frequently Asked Questions</h2>
         <p class="section-subtitle">Answers to the most common questions about our CA services and Indian tax compliance.</p>
       </div>
-
       <div class="faq-list">
-        <!-- EDIT: Add/remove FAQ items as needed. Copy a .faq-item block to add more. -->
-
         <div class="faq-item" onclick="toggleFAQ(this)">
           <div class="faq-question">
             <h4>Who is required to file an Income Tax Return in India?</h4>
             <div class="faq-icon"><i class="fas fa-plus"></i></div>
           </div>
           <div class="faq-answer">
-            <div class="faq-answer-inner">
-              Any individual whose gross total income exceeds the basic exemption limit (₹2.5 lakh for below 60 years, ₹3 lakh for senior citizens) must file an ITR. Additionally, individuals with foreign assets, those claiming refunds, or those with income from business, profession, or capital gains must also file. It is advisable for all working individuals to file ITR regardless of liability.
-            </div>
+            <div class="faq-answer-inner">Any individual whose gross total income exceeds the basic exemption limit (₹2.5 lakh for below 60 years, ₹3 lakh for senior citizens) must file an ITR. Additionally, individuals with foreign assets, those claiming refunds, or those with income from business, profession, or capital gains must also file.</div>
           </div>
         </div>
-
         <div class="faq-item" onclick="toggleFAQ(this)">
           <div class="faq-question">
             <h4>What documents are required for GST Registration?</h4>
             <div class="faq-icon"><i class="fas fa-plus"></i></div>
           </div>
           <div class="faq-answer">
-            <div class="faq-answer-inner">
-              For GST registration you need: PAN card of the business/proprietor, Aadhaar card, proof of business registration (Certificate of Incorporation / Partnership Deed), address proof of place of business (rent agreement / utility bill), bank account details (cancelled cheque or passbook), and a photograph of the proprietor/directors. Additional documents may be required based on business type.
-            </div>
+            <div class="faq-answer-inner">For GST registration you need: PAN card, Aadhaar card, proof of business registration, address proof of place of business, bank account details, and a photograph of the proprietor/directors. Additional documents may be required based on business type.</div>
           </div>
         </div>
-
         <div class="faq-item" onclick="toggleFAQ(this)">
           <div class="faq-question">
-            <h4>How do I file GST returns and what are the due dates?</h4>
+            <h4>What is MSME / Udyam Registration and who should register?</h4>
             <div class="faq-icon"><i class="fas fa-plus"></i></div>
           </div>
           <div class="faq-answer">
-            <div class="faq-answer-inner">
-              GST returns must be filed on the GST portal (gst.gov.in). The key returns are: GSTR-1 (outward supplies, due 11th of next month), GSTR-3B (monthly summary, due 20th of next month), and GSTR-9 (annual return, due December 31). Businesses under the Composition Scheme file CMP-08 quarterly. Late filing attracts a penalty of ₹50 per day (₹20 for nil returns).
-            </div>
+            <div class="faq-answer-inner">Udyam Registration is the official MSME registration under the Ministry of MSME. Any business with investment up to ₹50 crore and turnover up to ₹250 crore can register. Benefits include priority sector lending, lower interest rates on loans, government tender preferences, protection against delayed payments, and eligibility for various government subsidies and schemes. Registration is done online at udyamregistration.gov.in and requires only PAN and Aadhaar.</div>
           </div>
         </div>
-
         <div class="faq-item" onclick="toggleFAQ(this)">
           <div class="faq-question">
-            <h4>What services does a Chartered Accountant provide?</h4>
+            <h4>What happens when you receive an Income Tax notice?</h4>
             <div class="faq-icon"><i class="fas fa-plus"></i></div>
           </div>
           <div class="faq-answer">
-            <div class="faq-answer-inner">
-              A Chartered Accountant provides a wide range of services including: statutory and tax audits, income tax and GST return filing, financial statement preparation, company law compliance (ROC filings), business registration services, financial planning and advisory, management consulting, forensic accounting, and representation before tax authorities. CAs are the only professionals legally authorized to conduct company audits in India.
-            </div>
+            <div class="faq-answer-inner">Receiving an IT notice is common and not necessarily alarming. Notices can be issued for scrutiny assessment (Section 143(2)), defective returns (Section 139(9)), demand (Section 156), or general information (Section 133(6)). It is crucial to respond within the stipulated time period with proper documentation. We handle the entire process — from analysing the notice to drafting responses and representing you before the Assessing Officer.</div>
           </div>
         </div>
-
         <div class="faq-item" onclick="toggleFAQ(this)">
           <div class="faq-question">
             <h4>What is the difference between the Old and New Income Tax Regime?</h4>
             <div class="faq-icon"><i class="fas fa-plus"></i></div>
           </div>
           <div class="faq-answer">
-            <div class="faq-answer-inner">
-              The Old Regime allows deductions under sections like 80C (up to ₹1.5 lakh), 80D (health insurance), HRA, LTA, etc. but has higher base tax rates. The New Regime (default from FY 2023-24) offers lower slab rates but most deductions are not available (except 80CCD(2) for NPS employer contribution). The best regime depends on your income level and available deductions — we help you calculate and choose the more beneficial option.
-            </div>
+            <div class="faq-answer-inner">The Old Regime allows deductions under sections like 80C (up to ₹1.5 lakh), 80D, HRA, LTA, etc. but has higher base tax rates. The New Regime (default from FY 2023-24) offers lower slab rates but most deductions are not available. The best regime depends on your income level and available deductions — we help you calculate and choose the more beneficial option.</div>
           </div>
         </div>
-
+        <div class="faq-item" onclick="toggleFAQ(this)">
+          <div class="faq-question">
+            <h4>Can you help with Income Tax appeals before CIT(A) or ITAT?</h4>
+            <div class="faq-icon"><i class="fas fa-plus"></i></div>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Yes. We handle appeals at all levels — before the Commissioner of Income Tax (Appeals) [CIT(A)] and the Income Tax Appellate Tribunal (ITAT). Our team prepares detailed grounds of appeal, compiles supporting evidence, and argues your case effectively. Timely filing of appeal (within 30 days of the assessment order for CIT(A)) is critical and we ensure all procedural requirements are met.</div>
+          </div>
+        </div>
         <div class="faq-item" onclick="toggleFAQ(this)">
           <div class="faq-question">
             <h4>Is it mandatory for a small business to maintain accounts?</h4>
             <div class="faq-icon"><i class="fas fa-plus"></i></div>
           </div>
           <div class="faq-answer">
-            <div class="faq-answer-inner">
-              Under Section 44AA of the Income Tax Act, businesses with turnover exceeding ₹25 lakh (or professionals with receipts over ₹10 lakh) must maintain books of accounts. Additionally, if turnover exceeds ₹1 crore (₹10 crore for digital transactions), a tax audit under Section 44AB is mandatory. Under GST, all registered businesses must maintain proper records of invoices, purchases, and stock.
-            </div>
+            <div class="faq-answer-inner">Under Section 44AA of the Income Tax Act, businesses with turnover exceeding ₹25 lakh must maintain books of accounts. Additionally, if turnover exceeds ₹1 crore (₹10 crore for digital transactions), a tax audit under Section 44AB is mandatory. Under GST, all registered businesses must maintain proper records of invoices, purchases, and stock.</div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       RESOURCES
-  ============================= -->
   <section id="resources" class="section-pad">
     <div class="container">
       <div class="section-header center fade-in">
@@ -2503,51 +976,29 @@
         <h2 class="section-title">Downloadable Financial Guides</h2>
         <p class="section-subtitle">Practical checklists and guides to help you stay compliant and informed.</p>
       </div>
-
       <div class="resources-grid">
-        <!--
-          HOW TO ADD DOWNLOADABLE FILES:
-          1. Upload your PDF file to your hosting server
-          2. Update the href in the download button to the file path
-          3. Example: href="/downloads/income-tax-checklist.pdf"
-        -->
-
         <div class="resource-card fade-in">
           <div class="resource-icon"><i class="fas fa-file-alt"></i></div>
           <h4>Income Tax Filing Checklist</h4>
           <p>A complete checklist of documents and information you need before filing your ITR for the financial year.</p>
-          <!-- EDIT: Update href to your actual file path -->
-          <a href="#" class="btn-download" download>
-            <i class="fas fa-download"></i> Download PDF
-          </a>
+          <a href="#" class="btn-download" download><i class="fas fa-download"></i> Download PDF</a>
         </div>
-
         <div class="resource-card fade-in fade-in-delay-1">
           <div class="resource-icon"><i class="fas fa-file-invoice"></i></div>
           <h4>GST Registration Documents Guide</h4>
           <p>Everything you need to know about the documents required for GST registration for different business types.</p>
-          <!-- EDIT: Update href to your actual file path -->
-          <a href="#" class="btn-download" download>
-            <i class="fas fa-download"></i> Download PDF
-          </a>
+          <a href="#" class="btn-download" download><i class="fas fa-download"></i> Download PDF</a>
         </div>
-
         <div class="resource-card fade-in fade-in-delay-2">
-          <div class="resource-icon"><i class="fas fa-book"></i></div>
-          <h4>Small Business Accounting Guide</h4>
-          <p>An easy-to-understand guide covering basic accounting, bookkeeping, and compliance requirements for MSMEs.</p>
-          <!-- EDIT: Update href to your actual file path -->
-          <a href="#" class="btn-download" download>
-            <i class="fas fa-download"></i> Download PDF
-          </a>
+          <div class="resource-icon"><i class="fas fa-store"></i></div>
+          <h4>MSME Registration Guide</h4>
+          <p>Step-by-step guide to Udyam Registration — eligibility criteria, benefits, documents required, and the full application process.</p>
+          <a href="#" class="btn-download" download><i class="fas fa-download"></i> Download PDF</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       CONTACT
-  ============================= -->
   <section id="contact" class="section-pad">
     <div class="container">
       <div class="section-header center fade-in">
@@ -2555,35 +1006,29 @@
         <h2 class="section-title">Contact Us</h2>
         <p class="section-subtitle">We're here to help with all your financial and compliance needs.</p>
       </div>
-
       <div class="contact-grid">
         <div class="contact-details fade-in">
-          <!-- EDIT: Update all contact information below -->
           <div class="contact-item">
             <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
             <div>
               <strong>Phone</strong>
-              <a href="tel:+91XXXXXXXXXX">+91-9811267961</a>
+              <a href="tel:+919811267961">+91-9811267961</a>
             </div>
           </div>
-
           <div class="contact-item">
             <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
             <div>
               <strong>Email</strong>
-              <a href="mailto:contact@yourdomain.com">ntn290943@gmail.com</a>
+              <a href="mailto:ntn290943@gmail.com">ntn290943@gmail.com</a>
             </div>
           </div>
-
           <div class="contact-item">
             <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
             <div>
               <strong>Office Address</strong>
-              <!-- EDIT: Replace with your actual office address -->
               <p>Your Office Address, Area Name,<br />Delhi – 110001, India</p>
             </div>
           </div>
-
           <div class="contact-item">
             <div class="contact-item-icon"><i class="fas fa-clock"></i></div>
             <div>
@@ -2591,25 +1036,14 @@
               <p>Monday – Friday: 9:00 AM – 6:00 PM<br />Sunday: Closed</p>
             </div>
           </div>
-
-          <!-- EDIT: Replace XXXXXXXXXX with your WhatsApp number (with country code, no +) -->
-          <a href="https://wa.me/919811267961?text=Hello%2C%20I%20need%20CA%20services" class="whatsapp-btn" target="_blank">
+          <a href="https://wa.me/919811267961?text=Hello%2C%20I%20need%20TAX%20services" class="whatsapp-btn" target="_blank">
             <i class="fab fa-whatsapp" style="font-size: 1.2rem;"></i>
             Chat on WhatsApp
           </a>
-
-          <!-- EDIT: Replace with your actual Google Maps embed URL -->
           <div class="map-container">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83923192776!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              title="Office Location Delhi">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74750.8917593979!2d77.10569678336628!3d28.707596178876415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03133b23fa33%3A0xf18d90a85936a61!2sGupta%20tax%20and%20accounting%20solutions!5e0!3m2!1sen!2sca!4v1773074389755!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Office Location Delhi"></iframe>
           </div>
         </div>
-
         <div class="form-card fade-in fade-in-delay-1" style="box-shadow: var(--shadow-md); height: fit-content;">
           <h3 style="margin-bottom: 24px;">Send Us a Message</h3>
           <form id="contactForm" onsubmit="handleFormSubmit(event, 'contactForm')">
@@ -2629,7 +1063,7 @@
             </div>
             <div class="form-group">
               <label>Subject</label>
-              <input type="text" placeholder="e.g. GST Filing Query" />
+              <input type="text" placeholder="e.g. MSME Registration Query" />
             </div>
             <div class="form-group">
               <label>Message *</label>
@@ -2647,9 +1081,6 @@
     </div>
   </section>
 
-  <!-- ============================
-       FOOTER
-  ============================= -->
   <footer>
     <div class="container">
       <div class="footer-grid">
@@ -2657,33 +1088,29 @@
           <div class="nav-logo">
             <div class="logo-icon">CA</div>
             <div class="logo-text">
-              <!-- EDIT: Your business name -->
               <strong>Tax Professional Services</strong>
               <span>Tax Consultant · Delhi</span>
             </div>
           </div>
-          <p>Income Tax Consultant in Delhi offering comprehensive GST, income tax, auditing, and financial advisory services to individuals and businesses since 2005.</p>
+          <p>Income Tax Consultant in Delhi offering comprehensive GST, income tax, auditing, MSME registration, income tax cases, and financial advisory services to individuals and businesses since 2005.</p>
           <div class="footer-social">
-            <!-- EDIT: Update social media links -->
             <a href="#" class="social-btn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
             <a href="#" class="social-btn" title="YouTube"><i class="fab fa-youtube"></i></a>
             <a href="#" class="social-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
             <a href="#" class="social-btn" title="Facebook"><i class="fab fa-facebook-f"></i></a>
           </div>
         </div>
-
         <div class="footer-col">
           <h5>Services</h5>
           <ul class="footer-links">
             <li><a href="#services">GST Filing</a></li>
             <li><a href="#services">Income Tax Returns</a></li>
             <li><a href="#services">Financial Auditing</a></li>
-            <li><a href="#services">Financial Advisory</a></li>
-            <li><a href="#services">Business Compliance</a></li>
-            <li><a href="#services">Tax Planning</a></li>
+            <li><a href="#services">MSME Registration</a></li>
+            <li><a href="#services">Income Tax Cases</a></li>
+            <li><a href="#services">IT Dept. Related Work</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h5>Quick Links</h5>
           <ul class="footer-links">
@@ -2695,27 +1122,22 @@
             <li><a href="#resources">Free Guides</a></li>
           </ul>
         </div>
-
         <div class="footer-col">
           <h5>Contact</h5>
           <ul class="footer-links" style="gap: 14px;">
-            <!-- EDIT: Update contact details -->
             <li style="color: rgba(255,255,255,0.65); font-size: 0.87rem; line-height: 1.6;">
-              <i class="fas fa-map-marker-alt" style="color: var(--gold); margin-right: 6px;"></i>
-              Delhi, India – 110001
+              <i class="fas fa-map-marker-alt" style="color: var(--gold); margin-right: 6px;"></i> Delhi, India – 110009
             </li>
-            <li><a href="tel:+91XXXXXXXXXX"><i class="fas fa-phone" style="color: var(--gold); margin-right: 6px;"></i> +91-XXXXXXXXXX</a></li>
-            <li><a href="mailto:contact@yourdomain.com"><i class="fas fa-envelope" style="color: var(--gold); margin-right: 6px;"></i> contact@yourdomain.com</a></li>
+            <li><a href="tel:+919811267961"><i class="fas fa-phone" style="color: var(--gold); margin-right: 6px;"></i> +91-9811267961</a></li>
+            <li><a href="mailto:ntn290943@gmail.com"><i class="fas fa-envelope" style="color: var(--gold); margin-right: 6px;"></i> ntn290943@gmail.com</a></li>
             <li style="color: rgba(255,255,255,0.65); font-size: 0.87rem;">
-              <i class="fas fa-clock" style="color: var(--gold); margin-right: 6px;"></i>
-              Mon–Sat, 9 AM – 6 PM
+              <i class="fas fa-clock" style="color: var(--gold); margin-right: 6px;"></i> Mon–Fri, 9 AM – 6 PM
             </li>
           </ul>
         </div>
       </div>
-
       <div class="footer-bottom">
-        <p>© <span id="currentYear"></span> CA Professional Services, Delhi. All Rights Reserved.</p>
+        <p>© <span id="currentYear"></span> Tax Consultants, Delhi. All Rights Reserved.</p>
         <div style="display: flex; gap: 20px;">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -2725,11 +1147,7 @@
     </div>
   </footer>
 
-  <!-- ============================
-       FLOATING BUTTONS
-  ============================= -->
-  <!-- EDIT: Update WhatsApp number -->
-  <a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20need%20CA%20services" class="floating-wa" target="_blank" title="Chat on WhatsApp">
+  <a href="https://wa.me/919811267961?text=Hello%2C%20I%20need%20TAX%20services" class="floating-wa" target="_blank" title="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
 
@@ -2737,23 +1155,15 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- ============================
-       JAVASCRIPT
-  ============================= -->
   <script>
-    // ─── Navbar scroll effect ──────────────────────────────────
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
       navbar.classList.toggle('scrolled', window.scrollY > 40);
       document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
     });
-
-    // ─── Mobile menu ───────────────────────────────────────────
     function toggleMenu() {
       document.getElementById('mobileMenu').classList.toggle('open');
     }
-
-    // ─── FAQ accordion ─────────────────────────────────────────
     function toggleFAQ(item) {
       const isOpen = item.classList.contains('open');
       document.querySelectorAll('.faq-item').forEach(i => {
@@ -2765,8 +1175,6 @@
         item.querySelector('.faq-answer').classList.add('open');
       }
     }
-
-    // ─── Animated counters ─────────────────────────────────────
     function animateCounter(el, target, duration = 2000) {
       const span = el.querySelector('span');
       let start = 0;
@@ -2781,39 +1189,59 @@
         }
       }, 16);
     }
-
-    // ─── Intersection Observer for animations ──────────────────
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
-
-          // Trigger counters when stats section is visible
           if (entry.target.classList.contains('stat-number')) {
             const target = parseInt(entry.target.getAttribute('data-target'));
             animateCounter(entry.target, target);
-            observer.unobserve(entry.target); // Only animate once
+            observer.unobserve(entry.target);
           }
         }
       });
     }, { threshold: 0.15 });
-
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
     document.querySelectorAll('.stat-number').forEach(el => observer.observe(el));
+    // function handleFormSubmit(e, formId) {
+    //   e.preventDefault();
+    //   const successEl = document.getElementById(formId + '-success');
+    //   successEl.style.display = 'block';
+    //   e.target.reset();
+    //   setTimeout(() => { successEl.style.display = 'none'; }, 5000);
+    // }
+    async function handleFormSubmit(e, formId) {
+  e.preventDefault();
+  const form = e.target;
+  const successEl = document.getElementById(formId + '-success');
+  const submitBtn = form.querySelector('.form-submit');
 
-    // ─── Form submission handler ───────────────────────────────
-    // NOTE: This is a frontend-only demo. To actually receive emails,
-    // connect this to a service like Formspree, EmailJS, or Netlify Forms.
-    // For Formspree: change <form> action to your Formspree endpoint.
-    function handleFormSubmit(e, formId) {
-      e.preventDefault();
-      const successEl = document.getElementById(formId + '-success');
+  submitBtn.disabled = true;
+  submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>&nbsp; Sending...';
+
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    const data = await res.json();
+
+    if (data.success) {
       successEl.style.display = 'block';
-      e.target.reset();
+      form.reset();
       setTimeout(() => { successEl.style.display = 'none'; }, 5000);
+    } else {
+      alert('Something went wrong. Please call us directly on +91-9811267961');
     }
-
-    // ─── Footer year ───────────────────────────────────────────
+  } catch (err) {
+    alert('Network error. Please try again or call us directly.');
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i>&nbsp; Send Consultation Request';
+  }
+}
+    
     document.getElementById('currentYear').textContent = new Date().getFullYear();
   </script>
 
